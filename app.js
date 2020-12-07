@@ -1,6 +1,8 @@
 const path = require("path");
 const express = require("express");
 const hbs = require("hbs");
+
+const port = process.env.PORT || 3000
 const weather = require("./public/stack/weather");
 
 const dirpath = path.join(__dirname, "./public");
@@ -70,6 +72,6 @@ app.get("/*", (req, res) => {
   res.send("hello please enter the correct path");
 });
 
-app.listen(3000, () => {
-  console.log("hello from the consle");
+app.listen(port, () => {
+  console.log("hello server is up to port"+ port);
 });
