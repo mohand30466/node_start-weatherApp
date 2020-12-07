@@ -1,0 +1,36 @@
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    /* color: blue; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+.form{
+    margin-top:1.6rem;
+}
+input{
+    width: 16rem;
+    height: 1rem;
+}
+.about_container{
+    /* color: blue; */
+    background-color: aliceblue;
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
