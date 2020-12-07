@@ -1,8 +1,8 @@
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5rem;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 0 ;
+  padding: 0 ;
   width: 100vw;
   height: 100vh;
   color: rgb(42, 42, 104);
@@ -46,4 +46,27 @@ input {
     min-height: 100vh;
     background-color: aliceblue;
 
+}
+.sub-tittle{
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+.sub-tittle::after{
+     content: ' ';
+    position: absolute;
+    height: 3px;
+    width: 13rem;
+    top: 53%;
+    left: 42%;
+    border: 1px solid blue;
+    background: blue;
+}
+.links{
+    background: red;
+    text-decoration: none;
+}
+a{
+    padding: 3rem;
+    text-decoration: none;
 }
